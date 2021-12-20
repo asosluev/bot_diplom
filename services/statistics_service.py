@@ -5,7 +5,7 @@ import ciso8601
 
 from jinja2 import Template
 from cachetools import cached, TTLCache
-from common.containeres import DBContext
+from common.containers import DBContext
 
 
 class StatisticsService:
